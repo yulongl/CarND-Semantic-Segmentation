@@ -7,14 +7,19 @@ In this project, you'll label the pixels of a road in images using a Fully Convo
 Functions `load_vgg`, `layers`, `optimize`, and `train_nn` are implemented correctly and passed all test functions.  
 
 #### Neural Network Training  
+##### Total Loss  
+The loss used in this project is not only the cross entropy loss but the sum of cross entropy loss and regularization loss.
 
+##### Hyperparameters
+```
+keep_prob: 0.5
+learning_rate: 0.00005
+epochs = 50
+batch_size = 16
+```
+Limited usage in GPU mode in the Workspace but with 12Gb GPU memory. So I used larger batch size but didn't used a very small learning rate. This set of hyperparameters is not for best performance but is suitable for this environment.  
 
-
-
-
-
-
-
+##### Test Examples  
 
 
 
