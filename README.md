@@ -20,6 +20,7 @@ batch_size = 16
 Limited usage in GPU mode in the Workspace but with 12GB GPU memory. So I used larger batch size but didn't used a very small learning rate. This set of hyperparameters is not for best performance but is suitable for this environment.  
 
 ##### Test Examples  
+Overall the system performs well, with only a few false positives:  
 ![1](https://github.com/yulongl/CarND-Semantic-Segmentation/blob/master/pic/um_000056.png)  
 ![2](https://github.com/yulongl/CarND-Semantic-Segmentation/blob/master/pic/um_000060.png)  
 ![3](https://github.com/yulongl/CarND-Semantic-Segmentation/blob/master/pic/um_000066.png)  
